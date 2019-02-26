@@ -1,5 +1,4 @@
 import React from 'react';
-import '../stylesheets/BasicInfoCard.css';
 
 const BasicInfoCard = ( { info } ) =>
   <div>

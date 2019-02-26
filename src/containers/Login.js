@@ -3,10 +3,6 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
-import '../stylesheets/Login.css';
-import '../stylesheets/Buttons.css';
-
-
 import { accountLogin } from '../actions/accountActions';
 
 class Login extends Component {

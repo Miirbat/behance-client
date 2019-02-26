@@ -3,8 +3,6 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
-import '../stylesheets/Signup.css';
-
 import { createAccount } from '../actions/accountActions';
 
 class Signup extends Component {
@@ -40,7 +38,7 @@ class Signup extends Component {
 
   render() {
     const { email, password, password_confirmation, first_name, last_name } = this.state;
-    
+
     if (this.state.isLoading) {
       return <div> loading... </div>
     }

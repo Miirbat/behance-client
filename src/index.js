@@ -8,11 +8,13 @@ import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
 import rootReducer from './reducers';
 
+import './stylesheets/StyleIndex.js';
+
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
 ReactDOM.render(
   <Provider store={ store }>
-    <App />
+    <App className="app" />
   </Provider>,
   document.getElementById('root'));
 

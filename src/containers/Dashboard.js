@@ -6,9 +6,6 @@ import { bindActionCreators } from 'redux';
 import BasicInfoCard from '../components/BasicInfoCard.js';
 import { loadInfo } from '../actions/infoActions';
 
-import '../stylesheets/Buttons.css';
-import '../stylesheets/Dashboard.css';
-
 class Dashboard extends Component {
   constructor(props) {
     super(props);
